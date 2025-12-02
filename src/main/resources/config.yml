@@ -1,0 +1,22 @@
+# AuthPNX configuration
+
+# The database provider. (mysql/h2)
+provider: "h2"
+
+mysql:
+  host: "127.0.0.1"
+  port: "3306"
+  user: "root"
+  password: "password"
+  database: "AuthPNX"
+
+allowXboxAuthRegister: true
+minPasswordLength: 16
+
+maxLoginTries: 3
+
+pbkdf2:
+  iterations: 10000
+  keyLength: 256
+  # DO NOT CHANGE THIS! CHANGING WILL RESULT IN ALL REGISTERED PLAYERS BEING UNABLE TO REGISTER
+  salt: "THIS_WILL_BE_GENERATED"

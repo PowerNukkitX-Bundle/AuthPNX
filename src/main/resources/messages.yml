@@ -1,0 +1,24 @@
+failed_xbox_account: "The account you tried to join with is using a microsoft account!"
+register:
+  form:
+    title: "Register"
+    description: |
+      This server uses AuthPNX.
+      You are not registered yet.
+      Please register on this server by typing your password and confirming it.
+    confirm_password: "Confirm password"
+  success: "§aYou are now registered!"
+  password:
+    length: "§cYour password needs a minimum length of %d."
+    not_match: "§cThe password does not match!"
+login:
+  form:
+    title: "Login"
+    description: "Please enter your password to play."
+  success: "§aYou are now logged in!"
+  wrong: "§cWrong password. Please try again."
+  attempts: "Too many failed login attempts."
+password: "Password"
+changed:
+  password: "§aChanged your password successfully!"
+  type: "§aYou are now using your microsoft account to login!"
