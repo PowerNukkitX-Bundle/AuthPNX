@@ -39,7 +39,7 @@ public class AuthSession {
         if(playerData.next()) {
             this.type = AuthType.values()[playerData.getInt("type")];
         } else {
-            boolean xboxAuth = player.getLoginChainData().isXboxAuthed() && AuthPNX.get().getConfig().getBoolean("allowXboxAuthRegister", true);
+            boolean xboxAuth = player.getPlayerInfo().isXboxAuth() && AuthPNX.get().getConfig().getBoolean("allowXboxAuthRegister", true);
             this.type = xboxAuth ? AuthType.XBOX : AuthType.UNREGISTERED;
             client.executeUpdate("INSERT INTO players (username, type) VALUES (?, ?)", username, type.ordinal());
         }

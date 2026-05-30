@@ -3,10 +3,10 @@ package org.powernukkitx.authpnx.commands;
 import cn.nukkit.Player;
 import cn.nukkit.command.CommandSender;
 import cn.nukkit.command.PluginCommand;
-import cn.nukkit.command.data.CommandParamType;
 import cn.nukkit.command.data.CommandParameter;
 import cn.nukkit.command.tree.ParamList;
 import cn.nukkit.command.utils.CommandLogger;
+import org.cloudburstmc.protocol.bedrock.data.command.CommandParamType;
 import org.powernukkitx.authpnx.AuthPNX;
 import org.powernukkitx.authpnx.session.AuthSession;
 import org.powernukkitx.authpnx.utils.Messages;
@@ -22,8 +22,8 @@ public class ChangePasswordCommand extends PluginCommand<AuthPNX> {
         this.setDescription("Changes your password.");
         this.commandParameters.clear();
         this.commandParameters.put("default", new CommandParameter[]{
-                CommandParameter.newType("password", CommandParamType.STRING),
-                CommandParameter.newType("confirm_password", CommandParamType.STRING)
+                CommandParameter.newType("password", CommandParamType.ID),
+                CommandParameter.newType("confirm_password", CommandParamType.ID)
         });
         this.enableParamTree();
     }

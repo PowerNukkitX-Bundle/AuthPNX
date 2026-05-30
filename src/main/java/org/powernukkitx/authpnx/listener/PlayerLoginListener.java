@@ -17,7 +17,7 @@ public class PlayerLoginListener implements Listener {
             Player player = event.getPlayer();
             AuthSession session = AuthPNX.get().getSessionManager().get(player);
             if(session.getType() == AuthSession.AuthType.XBOX) {
-                if(player.getLoginChainData().isXboxAuthed()) {
+                if(player.getPlayerInfo().isXboxAuth()) {
                     session.setAuthenticated();
                 } else {
                     event.setKickMessage(Messages.INSTANCE.get("failed_xbox_account"));
