@@ -1,9 +1,9 @@
 package org.powernukkitx.authpnx;
 
-import cn.nukkit.command.CommandMap;
-import cn.nukkit.plugin.PluginBase;
-import cn.nukkit.plugin.PluginManager;
-import cn.nukkit.utils.Config;
+import org.powernukkitx.command.CommandMap;
+import org.powernukkitx.plugin.PluginBase;
+import org.powernukkitx.plugin.PluginManager;
+import org.powernukkitx.utils.Config;
 import lombok.Getter;
 import org.jline.utils.Log;
 import org.powernukkitx.authpnx.commands.ChangePasswordCommand;

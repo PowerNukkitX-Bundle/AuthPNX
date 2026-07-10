@@ -1,14 +1,14 @@
 package org.powernukkitx.authpnx.listener;
 
-import cn.nukkit.Player;
-import cn.nukkit.event.EventHandler;
-import cn.nukkit.event.Listener;
-import cn.nukkit.event.player.PlayerJoinEvent;
-import cn.nukkit.form.element.ElementDivider;
-import cn.nukkit.form.element.ElementLabel;
-import cn.nukkit.form.element.custom.ElementInput;
-import cn.nukkit.form.window.CustomForm;
-import cn.nukkit.level.Sound;
+import org.powernukkitx.Player;
+import org.powernukkitx.event.EventHandler;
+import org.powernukkitx.event.Listener;
+import org.powernukkitx.event.player.PlayerJoinEvent;
+import org.powernukkitx.form.element.ElementDivider;
+import org.powernukkitx.form.element.ElementLabel;
+import org.powernukkitx.form.element.custom.ElementInput;
+import org.powernukkitx.form.window.CustomForm;
+import org.powernukkitx.level.Sound;
 import org.powernukkitx.authpnx.AuthPNX;
 import org.powernukkitx.authpnx.session.AuthSession;
 import org.powernukkitx.authpnx.utils.Messages;

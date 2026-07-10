@@ -1,10 +1,10 @@
 package org.powernukkitx.authpnx.listener;
 
-import cn.nukkit.Player;
-import cn.nukkit.event.EventHandler;
-import cn.nukkit.event.EventPriority;
-import cn.nukkit.event.Listener;
-import cn.nukkit.event.player.PlayerLoginEvent;
+import org.powernukkitx.Player;
+import org.powernukkitx.event.EventHandler;
+import org.powernukkitx.event.EventPriority;
+import org.powernukkitx.event.Listener;
+import org.powernukkitx.event.player.PlayerLoginEvent;
 import org.powernukkitx.authpnx.AuthPNX;
 import org.powernukkitx.authpnx.session.AuthSession;
 import org.powernukkitx.authpnx.utils.Messages;

@@ -1,6 +1,6 @@
 package org.powernukkitx.authpnx.utils;
 
-import cn.nukkit.utils.Config;
+import org.powernukkitx.utils.Config;
 import org.powernukkitx.authpnx.AuthPNX;
 
 import java.io.File;

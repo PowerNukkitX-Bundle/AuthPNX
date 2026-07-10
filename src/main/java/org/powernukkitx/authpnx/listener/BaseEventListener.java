@@ -1,15 +1,15 @@
 package org.powernukkitx.authpnx.listener;
 
-import cn.nukkit.Player;
-import cn.nukkit.event.Cancellable;
-import cn.nukkit.event.Event;
-import cn.nukkit.event.EventHandler;
-import cn.nukkit.event.Listener;
-import cn.nukkit.event.entity.EntityDamageEvent;
-import cn.nukkit.event.entity.EntityEvent;
-import cn.nukkit.event.inventory.InventoryEvent;
-import cn.nukkit.event.inventory.InventoryOpenEvent;
-import cn.nukkit.event.player.*;
+import org.powernukkitx.Player;
+import org.powernukkitx.event.Cancellable;
+import org.powernukkitx.event.Event;
+import org.powernukkitx.event.EventHandler;
+import org.powernukkitx.event.Listener;
+import org.powernukkitx.event.entity.EntityDamageEvent;
+import org.powernukkitx.event.entity.EntityEvent;
+import org.powernukkitx.event.inventory.InventoryEvent;
+import org.powernukkitx.event.inventory.InventoryOpenEvent;
+import org.powernukkitx.event.player.*;
 import org.powernukkitx.authpnx.AuthPNX;
 import org.powernukkitx.authpnx.session.AuthSession;
 

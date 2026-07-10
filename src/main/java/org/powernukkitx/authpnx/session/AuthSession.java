@@ -1,7 +1,7 @@
 package org.powernukkitx.authpnx.session;
 
-import cn.nukkit.Player;
-import cn.nukkit.utils.Config;
+import org.powernukkitx.Player;
+import org.powernukkitx.utils.Config;
 import de.buddelbubi.database.DBClient;
 import de.buddelbubi.database.ResultSetList;
 import lombok.Getter;

@@ -1,13 +1,13 @@
 package org.powernukkitx.authpnx.session;
 
-import cn.nukkit.Player;
-import cn.nukkit.Server;
-import cn.nukkit.event.EventHandler;
-import cn.nukkit.event.EventPriority;
-import cn.nukkit.event.Listener;
-import cn.nukkit.event.player.PlayerLoginEvent;
-import cn.nukkit.event.player.PlayerQuitEvent;
-import cn.nukkit.utils.Config;
+import org.powernukkitx.Player;
+import org.powernukkitx.Server;
+import org.powernukkitx.event.EventHandler;
+import org.powernukkitx.event.EventPriority;
+import org.powernukkitx.event.Listener;
+import org.powernukkitx.event.player.PlayerLoginEvent;
+import org.powernukkitx.event.player.PlayerQuitEvent;
+import org.powernukkitx.utils.Config;
 import de.buddelbubi.database.DBClient;
 import de.buddelbubi.database.H2Client;
 import de.buddelbubi.database.MySQLClient;

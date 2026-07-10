@@ -1,8 +1,8 @@
 package org.powernukkitx.authpnx.commands;
 
-import cn.nukkit.Player;
-import cn.nukkit.command.CommandSender;
-import cn.nukkit.command.PluginCommand;
+import org.powernukkitx.Player;
+import org.powernukkitx.command.CommandSender;
+import org.powernukkitx.command.PluginCommand;
 import de.buddelbubi.database.DBClient;
 import org.powernukkitx.authpnx.AuthPNX;
 import org.powernukkitx.authpnx.session.AuthSession;
